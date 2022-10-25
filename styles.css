@@ -48,6 +48,7 @@ header{
 }
 
 main{
+    padding: 0 15px;
     width: 100%;
     height: auto;
     display: grid;

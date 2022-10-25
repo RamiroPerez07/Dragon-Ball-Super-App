@@ -43,23 +43,9 @@ async function getAllCharacters(){
 
 function getCharacterByName(event,characterName, arrayCharacters){
     event.preventDefault();
-    console.log(arrayCharacters)
     pjElegido = arrayCharacters.filter(objCharacter => objCharacter.name == characterName)
     cardContainer.innerHTML = createHtml(pjElegido[0])
 }
-
-// function setMainHeight(){
-//     const mainHeight = parseFloat(getComputedStyle(main).height);
-//     const headerHeight = parseFloat(getComputedStyle(header).height);
-//     const footerHeight = parseFloat(getComputedStyle(footer).height);
-//     const windowHeight = parseFloat(window.innerHeight);
-//     if (mainHeight < windowHeight - headerHeight - footerHeight -25 -30){   //25 margin top del header / 30 dos gaps de 15px en el body
-//         main.style.height = (windowHeight - headerHeight - footerHeight -25 -30)+"px" //45px altura header y 40px altura footer
-//     }else{
-//         main.style.height = "auto"
-//     }
-// }
-
 
 function init(){
     // setMainHeight()

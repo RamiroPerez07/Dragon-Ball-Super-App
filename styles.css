@@ -132,7 +132,7 @@ select:focus{
 }
 
 .card-desc{
-    font-size: var(--fs-medium1);
+    font-size: var(--fs-medium0);
     font-weight: 500;
     color: var(--color0);
     width: 100%;
@@ -141,7 +141,7 @@ select:focus{
 span{
     color: var(--color2);
     font-weight: bold;
-    font-size: var(--fs-medium1);
+    font-size: var(--fs-medium0);
     display: block;
     width: 100%;
 }

@@ -189,7 +189,7 @@ footer{
 .atributes{
     display: grid;
     grid-template-columns: 40% 1fr;
-    width: 70%;
+    width: 75%;
     height: auto;
     justify-items: center;
 }
@@ -200,6 +200,6 @@ footer{
     }
 
     .atributes{
-        width: 80%;
+        width: 90%;
     }
 }
